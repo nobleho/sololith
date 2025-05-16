@@ -1,0 +1,22 @@
+{
+    "project" : "Demo",
+    "$schema" : "http://schema.sololith.com/schema.ver.json",
+    "Root" : "app",
+    "app" : {       
+        "group" : "com.sololith.root",
+        "type" : "sololith",
+        "packaging" : "module.jug",                     
+        "assets" : [],
+        "scripts" : [],
+        "i18n" : "i18n.lang.json",
+        "modules" : ["bep", "fep", "mep", "3rdparty"]
+    },
+    "version" : "0.1.0",
+    "url" : "https://github.com/nobleho/sololith",
+    "license" : "MIT",
+    "author" : "Noble Ho",
+    "email" : "email@nobleho.com",
+    "description" : "Democation qwick porject",
+    "document" : "README.stf",
+    "language" : "Us-en|Vn-vi"
+}
