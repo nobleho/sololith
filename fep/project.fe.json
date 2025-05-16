@@ -1,0 +1,65 @@
+{
+    "project" : "Demo",
+    "$schema" : "http://schema.sololith.com/schema.ver.json",
+    "Root" : "projects",
+    "projects" : {
+        "app" : "my-app",
+        "group" : "com.sololith",
+        "artifact" : "app",
+        "type" : "application",
+        "schematics" : {},
+        "root" : "",
+        "source" : "src",
+        "prefix" : "app",
+        "packaging" : "pom.xml",
+        "architect" : {
+            "build" : "build/dev",
+            "options" : {
+                "main" : "main.py",
+                "assets" : []
+            }
+        },
+        "styles" : ["styles/app.sty"],
+        "scripts" : [],
+        "config" : [],
+        "mode" : "dev/root",
+        "i18n" : "i18n.lang.json",
+        "modules" : [],
+        "plugins" : [],
+        "extra" : []
+    },
+    "document" : "README.stf",
+    "version" : "0.1.0",
+    "url" : "https://github.com/nobleho/sololith",
+    "license" : "MIT",
+    "author" : "Noble Ho",
+    "email" : "email@nobleho.com",
+    "description" : "Democation qwick porject",
+    "packages" : "*",
+    "long_description" : "README.stf",
+    "env" : ".env",
+    "mode" : "production/development/testing",
+    "lang-program" : "Java|Python|C(++)",
+    "language" : "Us/En|Vi/vn",
+    "start-up" : "path-to-main",
+    "scripts" : {
+        "sli" : "sli",
+        "start" : "sli start",
+        "stop" : "sli stop",
+        "build" : "sli build",
+        "clean" : "sli clean",
+        "deploy" : "sli deployment",
+        "test" : "sli test"
+    },
+    "private" : "true/false",
+    "dependencies" : {
+        "@sololith/datakit" : "0.1.0alpha",
+        "#sololith/test" : "0.0.1b"
+    },
+    "development" : {
+        "#sololith/development" : "0.0.1c"
+    }
+
+
+
+}
